@@ -3,7 +3,7 @@ import TaskSlide from "./Features/Tasks/TaskSlide";
 
 const store = configureStore({
     reducer:{
-        task:TaskSlide
+        tasksSlice:TaskSlide
     }
 })
 export default store;
